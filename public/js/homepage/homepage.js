@@ -344,24 +344,3 @@ $('.message_top_span').on('tap',function(){
 		$(this).addClass('active')
 	})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-     
