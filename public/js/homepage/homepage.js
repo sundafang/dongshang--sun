@@ -361,31 +361,7 @@ $('.message_top_span').on('tap',function(){
 
 
 
-(
-	function($){
-		$("   ").on('tap',function(){
-			var files = $("  ")[0].files;
-			var file = files[0];
-			var formData = new FormData();
-			formData.append('imgData',files);
-			
-			
-			$.ajax({
-				type:"post",
-				url:"/api/img/upload",
-				async:true
-				dataType:"json",
-				data:formData,
-				cache:flase,
-				contentType:flase,
-				processData:flase,
-				success:function(result){
-					console.log(result);
-				}
-			});
-		})
-	}(jQuery)
-)
+
 
      
      
